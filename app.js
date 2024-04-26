@@ -5,7 +5,7 @@ botones.forEach(boton =>{
     boton.addEventListener('click',() =>{
         const botonApretado = boton.textContent;
         if (boton.id === 'dec'){
-            pantalla.textContent = parseInt(pantalla.textContent,2)
+            pantalla.textContent = parseInt(pantalla.textContent)
             return;
         }
         if (boton.id === 'bin'){
